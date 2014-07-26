@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Gengo",
+  "version": "1.0",
+  "default_locale": "en",
+  "description": "Utilities for gengo.com.",
+  "icons": {
+    "16": "16x16.png"
+  },
+  "background": {
+    "scripts": ["event-pages.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ]
+}
